@@ -148,7 +148,7 @@ main {
 }
 @media screen and (max-width: 767px) {
   .title {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 }
@@ -323,7 +323,7 @@ main {
 }
 @media screen and (max-width: 767px) {
   .about__details-text {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 .about__map {
@@ -701,6 +701,7 @@ main {
 }
 @media screen and (max-width: 767px) {
   .difference__head {
+    margin-top: 74px;
     min-width: 100px;
   }
 }
@@ -727,6 +728,7 @@ main {
 }
 @media screen and (max-width: 767px) {
   .difference__head span {
+    height: 75px;
     font-size: 13px;
     line-height: 1.5em;
   }
@@ -772,8 +774,10 @@ main {
 }
 @media screen and (max-width: 767px) {
   .difference__data span {
+    height: 75px;
     font-size: 13px;
     line-height: 1.5em;
+    padding-inline: 10px;
   }
 }
 .difference__data span:not(:last-child) {
